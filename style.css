@@ -1371,7 +1371,7 @@ ul.products li.product .button { margin: 0 24px; display: block; }
 .about-split img { border-radius: 2px; box-shadow: 0 30px 60px -30px rgba(44,36,32,.35); }
 .gift-hint { margin-top: 1.2rem; font-size: .92rem; color: #6f625a; }
 .gift-hint a { color: #2C2420; border-bottom: 1px solid #C5A880; }
-.lifestyle-band { position: relative; background-size: cover; background-position: center 60%; min-height: 440px; display: flex; align-items: center; justify-content: center; text-align: center; }
+.lifestyle-band { position: relative; background-size: cover; background-position: center 12%; min-height: 440px; display: flex; align-items: center; justify-content: center; text-align: center; }
 .lifestyle-band__veil { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(44,36,32,.35), rgba(44,36,32,.55)); }
 .lifestyle-band__inner { position: relative; z-index: 1; padding-top: 4rem; padding-bottom: 4rem; }
 .lifestyle-band blockquote { margin: 0 auto; max-width: 820px; font-family: var(--font-serif); font-size: clamp(1.7rem, 3.6vw, 3rem); line-height: 1.25; font-style: italic; color: #FAF8F5; }
