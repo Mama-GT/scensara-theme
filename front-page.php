@@ -131,7 +131,7 @@ $featured = $singles ? $singles[0] : null;
 			<div>
 				<span class="eyebrow"><?php esc_html_e( 'Signature Edition', 'scensara' ); ?></span>
 				<h2 class="split-title"><?php esc_html_e( 'The Clarity Edition Hardcover', 'scensara' ); ?></h2>
-				<p class="split-copy"><?php esc_html_e( 'Featuring 5 structured chapters and 75 foundational reflection questions crafted specifically for women navigating their 20s and 30s.', 'scensara' ); ?></p>
+				<p class="split-copy"><?php esc_html_e( 'Featuring 5 structured chapters and 75 foundational reflection questions for finding calm, decisive clarity.', 'scensara' ); ?></p>
 				<?php if ( $featured ) : ?><div class="product-price"><?php echo wp_kses_post( $featured->get_price_html() ); ?></div><?php endif; ?>
 				<div class="hero-actions">
 					<?php if ( $featured && $featured->is_type( 'simple' ) && $featured->is_purchasable() ) : ?>

@@ -1414,3 +1414,7 @@ ul.products li.product .button { margin: 0 24px; display: block; }
   .story-split--reverse > img { order: -1; }
 }
 @media (prefers-reduced-motion: reduce) { .sticky-bag { transition: none; } }
+
+/* Footer: two columns (brand + links) */
+.footer-grid { grid-template-columns: 1.4fr 1fr; }
+@media (max-width: 800px) { .footer-grid { grid-template-columns: 1fr; } }

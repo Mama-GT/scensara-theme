@@ -11,7 +11,6 @@ defined( 'ABSPATH' ) || exit;
 		<div class="footer-grid">
 			<div>
 				<div class="footer-brand">Scensara</div>
-				<p class="footer-text"><?php esc_html_e( 'Minimalist, intentional guided journals designed for women aged 20–40 to quiet mental clutter and find clarity on paper.', 'scensara' ); ?></p>
 			</div>
 			<div>
 				<div class="footer-heading"><?php esc_html_e( 'Explore', 'scensara' ); ?></div>
@@ -40,10 +39,6 @@ defined( 'ABSPATH' ) || exit;
 					echo '</ul>';
 				}
 				?>
-			</div>
-			<div>
-				<div class="footer-heading"><?php esc_html_e( 'Weekly Ritual', 'scensara' ); ?></div>
-				<p class="footer-text"><?php esc_html_e( 'Every Sunday we publish one thought-narrowing question on our journal blog to help you reset for the week ahead.', 'scensara' ); ?></p>
 			</div>
 		</div>
 		<div class="footer-bottom">
