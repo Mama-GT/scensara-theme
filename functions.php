@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SCENSARA_VERSION', '1.1.0' );
+define( 'SCENSARA_VERSION', '1.3.0' );
 
 /**
  * Theme supports, menus, image sizes.

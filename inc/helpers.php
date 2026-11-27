@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
  * URL to a file inside the theme.
  */
 function scensara_asset( $path ) {
-	return trailingslashit( get_template_directory_uri() ) . ltrim( $path, '/' );
+	return trailingslashit( get_template_directory_uri() ) . ltrim( $path, '/' ) . '?v=' . ( defined( 'SCENSARA_VERSION' ) ? SCENSARA_VERSION : '1' );
 }
 
 /**
